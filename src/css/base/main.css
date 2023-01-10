@@ -34,3 +34,6 @@
     display: flex;
     align-items: center
 }
+.poscenter{
+    justify-content: space-between;
+}
