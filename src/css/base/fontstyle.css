@@ -59,7 +59,7 @@ h4 {
 }
 
 .paccueil-corps {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--accueil-corps);
     letter-spacing: -2%;
     text-align: left;
@@ -82,7 +82,7 @@ h4 {
 }
 
 .pcorps-frise {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--corps-frise);
     letter-spacing: 1.5%;
     color: var(--thirth-color);
@@ -90,14 +90,14 @@ h4 {
 
 
 .pcorps-article {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     color: var(--thirth-color);
 }
 
 
 .pcitation-art {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--citation-art);
     color: var(--thirth-color);
 }
@@ -109,13 +109,13 @@ h4 {
 }
 
 .pfooter-corps {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--footer-corps);
     color: var(--thirth-color);
 }
 
 .pfooter-link {
-    font-family: 'helvetica_neuemedium_extended', sans-serif;
+    font-family: 'helvetica', sans-serif;
     font-size: var(--footer-link);
     color: var(--thirth-color);
 }

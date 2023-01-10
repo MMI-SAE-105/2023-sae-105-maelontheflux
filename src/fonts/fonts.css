@@ -1,49 +1,23 @@
 @font-face {
     font-family: 'helveticabold';
-    src: url('helvetica-bold-webfont.woff2') format('woff2'),
-         url('helvetica-bold-webfont.woff') format('woff');
+    src: url('../fonts/helvetica-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 
 @font-face {
-    font-family: 'helvetica_neuemedium_extended';
-    src: url('helvetica_neue_medium_extended-webfont.woff2') format('woff2'),
-         url('helvetica_neue_medium_extended-webfont.woff') format('woff');
+    font-family: 'helvetica';
+    src: url(../fonts/Helvetica.woff2) format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-@font-face {
-    font-family: 'helvetica_neueultralight';
-    src: url('helvetica_neue_ultralight-webfont.woff2') format('woff2'),
-         url('helvetica_neue_ultralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'helveticaneuew01-66mediumitRg';
-    src: url('helvetica_neue_w01_66_medium_it-webfont.woff2') format('woff2'),
-         url('helvetica_neue_w01_66_medium_it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 @font-face {
     font-family: 'raleighregular';
-    src: url('raleigh_regular-webfont.woff2') format('woff2'),
-         url('raleigh_regular-webfont.woff') format('woff');
+    src: url('../fonts/raleigh_regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleigh_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -54,8 +28,8 @@
 
 @font-face {
     font-family: 'raleighbold';
-    src: url('raleighbold-webfont.woff2') format('woff2'),
-         url('raleighbold-webfont.woff') format('woff');
+    src: url('../fonts/raleighbold-webfont.woff2') format('woff2'),
+         url('../fonts/raleighbold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

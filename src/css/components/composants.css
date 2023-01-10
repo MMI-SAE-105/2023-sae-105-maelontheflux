@@ -22,7 +22,7 @@
 }
 
 button.artistes {
-    width: 246px;
+    width: 256px;
     height: 34px;
     margin-top: 40px;
     margin-bottom: 71px;
@@ -70,7 +70,7 @@ button.artistes::after {
 }
 
 button.oeuvres {
-    width: 246px;
+    width: 256px;
     height: 34px;
     margin-top: 40px;
     margin-bottom: 51px;
@@ -107,7 +107,7 @@ button.oeuvres::after {
 }
 
 button.billetterie {
-    width: 246px;
+    width: 245px;
     height: 34px;
     margin-top: 40px;
     margin-bottom: 38px;
