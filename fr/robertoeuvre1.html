@@ -1,23 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosette</title>
+    <title>Hans-hinterreiter</title>
+    <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+
+
+<header class="bg-img-header">
+    <a href="../fr/accueil.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/accueil.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+        <a class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</a>
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
+        </a>
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">Les grandes oeuvres</p>
+        </a>
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
+        </a>
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top42">Exposition<br>Art Concret</h1>
+    </div>
+</header>
+
+<body class="bg-color">
     <h2>Robert Strübin</h2>
     <h3>“Rosette”</h3>
 
     <img>
         
     <p>1938, “Rosette”, Robert Strübin</p>
-    <p>En 1938, Robert Strübin sort sa première rosette.</p>
-    <p>L’effet est immédiat, il créera ensuite d'autres rosettes mandala et dérivera vers l'art musical.</p>
+    <p class="pcorps-article">En 1938, Robert Strübin sort sa première rosette.</p>
+    <p class="pcorps-article">L’effet est immédiat, il créera ensuite d'autres rosettes mandala et dérivera vers l'art musical.</p>
     
-    <p>Bien qu'il soit surtout connu pour ses études sur les couleurs, Albers s'est ici intéressé à l'absence de couleur dans ses études de lignes, où il a travaillé pour créer «un effet maximal avec des moyens minimaux».</p>
-    <p>Cette série d'œuvres a été achevée alors qu'il enseignait au Black Mountain College et poursuivait son exploration des illusions d'optique.</p>
+    <p class="pcorps-article">Bien qu'il soit surtout connu pour ses études sur les couleurs, Albers s'est ici intéressé à l'absence de couleur dans ses études de lignes, où il a travaillé pour créer «un effet maximal avec des moyens minimaux».</p>
+    <p class="pcorps-article">Cette série d'œuvres a été achevée alors qu'il enseignait au Black Mountain College et poursuivait son exploration des illusions d'optique.</p>
     
     <q>L'art concret n'est pas un dogme, pas un « isme », il est l'expression d'une pensée intellectuelle. Il connaît une pluralité de langages.</q>
 

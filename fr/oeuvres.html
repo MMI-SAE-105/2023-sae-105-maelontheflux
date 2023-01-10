@@ -1,21 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hans-hinterreiter</title>
+    <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
-    <h3>Les grandes œuvres</h3>
+
+
+<header class="bg-img-header">
+    <a href="../fr/accueil.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/accueil.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
+        </a>
+
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">Les grandes oeuvres</p>
+        </a>
+
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
+        </a>
+
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top50">Les grandes oeuvres</h1>
+    </div>
+</header>
+
+<body class="bg-color">
     
-    <p>L’art concret</p>
+    <p class="ptitre-frise padding-text18">L’art concret</p>
 
-    <p>L'art concret est un mouvement artistique de tendance abstraite.</p>
-    <p>Ce mouvement artistique met fortement l'accent sur l'abstraction.</p>
-    <p>Le terme concret a été inventé par l'artiste Theo Van Doesburg. Lorsqu'il a fondé un groupe dans les années 1930 appelé "Art Concret"</p>
+    <p class="pcorps-article">L'art concret est un mouvement artistique de tendance abstraite.</p>
+    <p class="pcorps-article">Ce mouvement artistique met fortement l'accent sur l'abstraction.</p>
+    <p class="pcorps-article">Le terme concret a été inventé par l'artiste Theo Van Doesburg. Lorsqu'il a fondé un groupe dans les années 1930 appelé "Art Concret".</p>
 
-    <p>Découvrez le meilleur de l’art concret</p>
+    <p class="ptitre-frise padding-text18">Découvrez le meilleur de l’art concret</p>
 
 <!-- Carroussel -->
 

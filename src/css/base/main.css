@@ -2,8 +2,27 @@
     background-color: var(--second-color);
 }
 
-.padding-top42{
-    padding-top: 42.72px;
+.padding-top50{
+    padding-top: 50px;
 }
 
+.padding-text18{
+    padding-left: 18px;
+    padding-right: 18px;
+}
 
+.padding-left18{
+padding-left: 18px;
+}
+
+.padding-right18{
+    padding-right: 18px;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}

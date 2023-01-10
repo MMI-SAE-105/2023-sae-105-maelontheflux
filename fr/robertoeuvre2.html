@@ -1,23 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image musicale</title>
+    <title>Hans-hinterreiter</title>
+    <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+
+
+<header class="bg-img-header">
+    <a href="../fr/accueil.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/accueil.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+        <a class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</a>
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
+        </a>
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">Les grandes oeuvres</p>
+        </a>
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
+        </a>
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top42">Exposition<br>Art Concret</h1>
+    </div>
+</header>
+
+<body class="bg-color">
     <h2>Robert Strübin</h2>
     <h3>“Musikbild zu einer Komposition von Pjotr Iljitsch Tschaikowski”</h3>
 
     <img>
         
     <p>1960, “Image musicale pour une composition de Piotr Ilitch Tchaïkovski”, Robert Strübin</p>
-    <p>Cette collage couleur représente de la musique.</p>
-    <p>Trois compositions réalisées par ce système de notation musicale font partie de la Collection Pictet sorti en 1961.</p>
+    <p class="pcorps-article">Cette collage couleur représente de la musique.</p>
+    <p class="pcorps-article">Trois compositions réalisées par ce système de notation musicale font partie de la Collection Pictet sorti en 1961.</p>
     
-    <p>À l’aide de palettes de couleurs soigneusement définies par l’artiste, une couleur étant attribuée à chaque note, il remplit de manière linéaire la surface du papier.</p>
-    <p>Le système de conversion varie d’une image à l’autre tout comme le rythme du morceau qui est donné par la forme et l’espacement des zones colorées.</p>
+    <p class="pcorps-article">À l’aide de palettes de couleurs soigneusement définies par l’artiste, une couleur étant attribuée à chaque note, il remplit de manière linéaire la surface du papier.</p>
+    <p class="pcorps-article">Le système de conversion varie d’une image à l’autre tout comme le rythme du morceau qui est donné par la forme et l’espacement des zones colorées.</p>
     
     <q>“L'art concret est le reflet de l'esprit humain pour l'esprit humain.”</q>
 

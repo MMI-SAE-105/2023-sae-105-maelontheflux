@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hans-hinterreiter</title>
+    <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+
+
+<header class="bg-img-header">
+    <a href="../fr/accueil.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/accueil.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+        <a class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</a>
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
+        </a>
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">Les grandes oeuvres</p>
+        </a>
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
+        </a>
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top42">Exposition<br>Art Concret</h1>
+    </div>
+</header>
+
+<body class="bg-color">
     <h2>Hans-hinterreiter</h2>
     <h3>Hans-hinterreiter</h3>
     <p>Hans-hinterreiter est né à Winterthur, en Suisse, en 1902. En tant qu'étudiant en architecture en 1920, il se tourne vers l’art et le piano.</p>

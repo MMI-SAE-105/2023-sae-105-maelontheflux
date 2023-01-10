@@ -93,6 +93,8 @@ h4 {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     color: var(--thirth-color);
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
 
@@ -106,6 +108,8 @@ h4 {
     font-family: 'helveticabold', sans-serif;
     font-size: var(--footer-titre);
     color: var(--thirth-color);
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .pfooter-corps {
