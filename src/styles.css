@@ -11,23 +11,28 @@ Soyez attentifs à l'ordre d'import :
   6. Les composant d'interface (Components)
 */
 
+
 /* Les polices de caractère */
 @import "./fonts/fonts.css";
 
 /* Librairies */
-
+@import "/src/css/vendors/normalize.css";
 
 /* Variables */
-
+@import "/src/css/utils/variable.css";
 
 /* Base */
-
+@import "/src/css/base/fontstyle.css";
+@import "/src/css/base/main.css";
+@import "/src/css/base/media.css";
 
 /* Layout */
-
+@import "/src/css/layout/composition.css";
+@import "/src/css/layout/footer.css";
+@import "/src/css/layout/header.css";
 
 /* Components */
-
+@import "/src/css/components/composants.css";
 
 
 
