@@ -97,7 +97,6 @@ h4 {
     color: var(--thirth-color);
 }
 
-
 .pcorps-article {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
@@ -106,7 +105,6 @@ h4 {
     padding-right: 23px;
 }
 
-
 .pcitation-art{
     font-family: 'helvetica', sans-serif;
     font-size: var(--citation-art);
@@ -114,7 +112,6 @@ h4 {
     padding-left: 37.5px;
     padding-right: 37.5px;
 }
-
 
 .pfooter-titre {
     font-family: 'helveticabold', sans-serif;
@@ -132,39 +129,4 @@ h4 {
     font-family: 'helvetica', sans-serif;
     font-size: var(--footer-link);
     color: var(--thirth-color);
-}
-
-.pcorps-contact-rouge{
-    font-family: 'helvetica', sans-serif;
-    font-size: var(--corps-article);
-    margin-left: 29px;
-    letter-spacing: -6.5%;
-    color: var(--main-color);
-}
-
-
-
-
-
-
-
-
-
-
-.pcorps-article-margin-top-40px {
-    font-family: 'objectivitymedium', sans-serif;
-    font-size: var(--corps-article);
-    margin-top: 40px;
-    margin-left: 22px;
-    margin-right: 22px;
-    letter-spacing: -6.5%;
-}
-
-.pcorps-article-margin-top-20px {
-    font-family: 'objectivitymedium', sans-serif;
-    font-size: var(--corps-article);
-    margin-top: 20px;
-    margin-left: 22px;
-    margin-right: 22px;
-    letter-spacing: -6.5%;
 }

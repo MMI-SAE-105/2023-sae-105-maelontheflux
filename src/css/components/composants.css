@@ -112,30 +112,31 @@ input {
     font-family: 'helvetica' "typewriter", sans-serif;
     font-size: var(--corps-article);
     text-align: center;
+    color: var(--thirth-color)
 }
 
-  input[message=name]{
+input[message=name]{
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: center;
     caret-color: var(--thirth-color);
 }
 
-  input[message=mail]{
+input[message=mail]{
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: center;
     caret-color: var(--thirth-color);
 }
 
-  input[message=object]{
+input[message=object]{
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: left;
     caret-color: var(--thirth-color);
 }
   
-  input[message=message]{
+input[message=message]{
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: start;
@@ -153,15 +154,15 @@ input[type=text] {
     border: none;
   }
   
-  input[placeholder=Message] {
+input[placeholder=Message] {
     color: var(--thirth-color);
   }
   
-  input[placeholder=Message]::placeholder {
+input[placeholder=Message]::placeholder {
     color: var(--thirth-color);
   }
 
-  input[type=message] {
+input[type=message] {
     position: relative;
     height: 90px;
     width: 334px;
@@ -169,10 +170,10 @@ input[type=text] {
     background: var(--main-color);
     border-radius: 5px;
     border: none;
-  
+
   }
-  
-  button[type=send] {
+
+button[type=send] {
     position: relative;
     width: 334px;
     height: 49px;
