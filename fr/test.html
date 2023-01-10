@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuOuver1: false}">
+<html lang="fr" x-data="{menuOuvert1: false}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,21 +15,21 @@
         <a href="../fr/accueil.html">
             <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg" alt="logo du site Concret Art"></a>
 
-        <button class="icon-menu-contour"><img class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
 
-        <div>
-            <nav class="bg-menu" aria-controls="mainNav" x-show="menuOuvert1">
+
+        <button class="icon-menu-contour" aria-controls="mainNav"><img class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+        <nav id="mainNav" class="bg-menu" x-show="menuOuvert1">
                 <a href="../fr/accueil.html">
+
                     <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg" alt="logo du site Concret Art"></a>
-        
-                <button class="icon-croix-contour"><img class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+                    <button class="icon-croix-contour"><img class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+                    
                     <p class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</p><br>
                     <p class="ptitre-menu margintop39 text-menu" href="../fr/oeuvres.html">Les grandes œuvres</p><br>
                     <p class="ptitre-menu margintop39 text-menu" href="../fr/billetterie.html">Billetterie & Contact</p>
                     <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
             </nav>
-    </div>
-
+    
     <div>
     <h1 class="padding-top42">Exposition<br>Art Concret</h1>
     </div>

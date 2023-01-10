@@ -25,6 +25,7 @@ Soyez attentifs à l'ordre d'import :
 @import "/src/css/base/fontstyle.css";
 @import "/src/css/base/main.css";
 @import "/src/css/base/media.css";
+@import "/src/css/base/menu.css";
 
 /* Layout */
 @import "/src/css/layout/composition.css";
