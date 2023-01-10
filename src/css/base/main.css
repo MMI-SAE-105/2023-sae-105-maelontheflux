@@ -30,3 +30,7 @@
 .sous-ligne {
     text-decoration: underline;
 }
+.alignement{
+    display: flex;
+    align-items: center
+}

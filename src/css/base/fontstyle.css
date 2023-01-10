@@ -21,7 +21,9 @@ h1 {
 h2 {
     font-family: 'raleighbold';
     font-size: var(--titre-sous-article);
+    color: var(--thirth-color);
     text-align: center;
+
 }
 
 h3 {
@@ -75,6 +77,14 @@ h4 {
     color: var(--second-color);
 }
 
+.pcorps-image{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    color: var(--thirth-color);
+    padding-left: 23px;
+    padding-right: 10px;
+}
+
 .ptitre-frise {
     font-family: 'raleighregular';
     font-size: var(--titre-frise);
@@ -98,7 +108,7 @@ h4 {
 }
 
 
-.pcitation-art {
+.pcitation-art{
     font-family: 'helvetica', sans-serif;
     font-size: var(--citation-art);
     color: var(--thirth-color);
