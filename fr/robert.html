@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hans-hinterreiter</title>
+    <title>Robert Strübin</title>
     <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
     <link rel="stylesheet" href="../src/styles.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
@@ -16,8 +16,6 @@
     <a href="../fr/accueil.html">
         <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
             alt="logo du site Concret Art"></a>
-
-
 
     <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
             class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
@@ -31,41 +29,56 @@
         <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
                 class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
 
-        <a class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</a>
+
         <a href="../fr/artistes.html">
             <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
         </a>
+
         <a href="../fr/oeuvres.html">
-            <p class="ptitre-menu margintop39 text-menu">Les grandes oeuvres</p>
+            <p class="ptitre-menu margintop39 text-menu">Les grandes œuvres</p>
         </a>
+
         <a href="../fr/billetterie.html">
             <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
         </a>
+
         <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
     </nav>
     <div>
-        <h1 class="padding-top42">Exposition<br>Art Concret</h1>
+        <h1 class="padding-top50">Robert Strübin</h1>
     </div>
 </header>
 
 <body class="bg-color">
     <h2>Robert Strübin</h2>
-    <h3>Robert Strübin</h3>
-    <p>Musicien et artiste autodidacte, Robert Strübin est né à Bâle en 1897 et a grandi dans une famille où l'art et la musique ont joué un rôle prédominant.</p>
-    <p>Pianiste de formation, il se tourne vers le dessin en 1932, puis vers la peinture quelques années plus tard.</p>
+    <p class="pcorps-article">Musicien et artiste autodidacte, Robert Strübin est né à Bâle en 1897 et a grandi dans une famille où l'art et la musique ont joué un rôle prédominant.</p>
+    <p class="pcorps-article">Pianiste de formation, il se tourne vers le dessin en 1932, puis vers la peinture quelques années plus tard.</p>
 
 
-    <img>
-    <p>Photo de Robert Strübin</p>
+    <div class="alignement">
+        <img class="img-artiste" src="../public/img/page robert/img-robert-photo.webp"
+            alt="image de l'artiste Robert Strübin">
+        <p class="pcorps-image">Photo de<br>Robert Strübin</p>
+    </div>
+
+
 
     <p class="pcorps-article">Le travail de Strübin est resté en marge et sa réception limitée n’a commencé que tardivement.</p>
     <p class="pcorps-article">Sa première exposition personnelle a lieu en 1964 à Bâle, mais c’est après sa mort, en 1970, qu’une rétrospective lui est consacrée au Kunstmuseum de Lucerne à l’initiative de Jean-Christophe Ammann.</p>
-    
+
     <p class="pcorps-article">Voir aussi les œuvres :</p>
-    <p class="pcorps-article">Rosette</p>
-    <p class="pcorps-article">Musikbild zu einer Komposition von Pjotr Iljitsch Tschaikowski</p>
-    
-    <q>“L'art concret est déterminé par le résultat, par la visualisation d'une pensée et non d'une méthode.”</q>
+    <div class="alignement poscenter">
+        <a href="../fr/robertoeuvre1.html">
+            <p class="pcorps-article sous-ligne">Rosette</p>
+        </a>
+        <a href="../fr/robertoeuvre2.html">
+            <p class="pcorps-article sous-ligne">Image musicale</p>
+        </a>
+    </div>
+
+
+    <div class="align-mid padding-top50"><q class="pcitation-art">L'art concret n'est pas narratif, littéraire.<br> Il est proche de la musique.</q></div>
 
 </body>
+
 </html>
