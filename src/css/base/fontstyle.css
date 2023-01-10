@@ -81,8 +81,6 @@ h4 {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     color: var(--thirth-color);
-    padding-left: 23px;
-    padding-right: 10px;
 }
 
 .ptitre-frise {
@@ -112,14 +110,15 @@ h4 {
     font-family: 'helvetica', sans-serif;
     font-size: var(--citation-art);
     color: var(--thirth-color);
+    padding-left: 37.5px;
+    padding-right: 37.5px;
 }
+
 
 .pfooter-titre {
     font-family: 'helveticabold', sans-serif;
     font-size: var(--footer-titre);
     color: var(--thirth-color);
-    padding-left: 35px;
-    padding-right: 35px;
 }
 
 .pfooter-corps {

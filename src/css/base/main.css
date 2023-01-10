@@ -37,3 +37,10 @@
 .poscenter{
     justify-content: space-between;
 }
+.paddingtop20{
+    padding-top: 20px;
+}
+.paddingcitation{
+    padding-left: 20px;
+    padding-right: 20px;
+}
