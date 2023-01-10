@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuOuvert1: false}">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,8 @@
                 <a href="../fr/accueil.html">
 
                     <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg" alt="logo du site Concret Art"></a>
-                    <button class="icon-croix-contour"><img class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+        
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
                     
                     <p class="ptitre-menu margintop100 text-menu" href="../fr/artistes.html">Les grands artistes</p><br>
                     <p class="ptitre-menu margintop39 text-menu" href="../fr/oeuvres.html">Les grandes œuvres</p><br>
