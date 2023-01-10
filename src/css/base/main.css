@@ -37,6 +37,9 @@
 .poscenter{
     justify-content: space-between;
 }
+.margintop30{
+    margin-top: 30px;
+}
 .paddingtop20{
     padding-top: 20px;
 }
