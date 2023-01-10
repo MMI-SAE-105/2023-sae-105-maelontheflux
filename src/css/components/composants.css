@@ -128,3 +128,10 @@ button.billetterie::after {
     margin-left: 70px;
     content: url(../../../public/icons/icon_arrow-right.svg);
 }
+
+.bg-img-header{
+    margin-top: -27px;
+    height: 351px;
+    background-image: url(../../../public/img/all/bg-header.webp);
+    background-size: 100%;
+}
