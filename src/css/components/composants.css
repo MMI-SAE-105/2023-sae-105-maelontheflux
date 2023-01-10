@@ -1,137 +1,108 @@
-/* Artistes */
-.bgimage1artistes {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: 441px;
-    background-size: 100%;
-    background-image: url(../../../public/img/accueil/img-accueil-1.webp);
+/* Ellipse Frise */
+.elipse-1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 142px;
+    top: 385px;
+    background: var(--thirth-color);
+    border-radius: 100px;
 }
-
-.bgimage1artistes::before {
-    content: url(../../../public/icons/icon_arrow-down.svg);
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    margin-bottom: -358px;
-
+.elipse-2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 180px;
+    top: 769px;
+    background: var(--main-color);
+    border-radius: 100px;
 }
-
-button.artistes {
-    width: 256px;
-    height: 34px;
-    margin-top: 40px;
-    margin-bottom: 71px;
-    margin-left: 15px;
-    padding-left: 8px;
-    padding-right: 10px;
-    display: flex;
-    align-items: center;
-    background-color: var(--thirth-color);
-    color: var(--second-color);
-    font-family: 'helveticabold', sans-serif;
-    font-size: var(--accueil-navigation);
-    border: none;
+.elipse-3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 144px;
+    top: 1170px;
+    background: var(--thirth-color);
+    border-radius: 100px;
 }
-
-button.artistes::after {
-    padding-top: 1px;
-    margin-left: 70px;
-    content: url(../../../public/icons/icon_arrow-right.svg);
+.elipse-4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 180px;
+    top: 1572px;
+    background: var(--main-color);
+    border-radius: 100px;
 }
 
 
 
-/* Oeuvres */
-
-.bgimage2oeuvres {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height:  372px;
-    background-size: 100%;
-    background-image: url(../../../public/img/accueil/img-accueil-2.webp);
+/* Trait Frise */
+.trait-1{
+    position: absolute;
+    width: 6.5px;
+    height: 249px;
+    left: 145.91px;
+    top: 505.97px;
+    background: var(--main-color);
+    border-radius: 22px;
+    transform: rotate(-49.31deg);
+}
+.trait-2{
+    position: absolute;
+    width: 6.5px;
+    height: 249px;
+    left: 198.91px;
+    top: 899.97px;
+    background: var(--thirth-color);
+    border-radius: 22px;
+    transform: rotate(49.36deg)
+}
+.trait-3{
+    position: absolute;
+    width: 6.5px;
+    height: 249px;
+    left: 145.91px;
+    top: 1303.97px;
+    background: var(--main-color);
+    border-radius: 22px;
+    transform: rotate(-49.31deg);
 }
 
-.bgimage2oeuvres::before {
+/* Bouton Carrousel */
 
-    content: url(../../../public/icons/icon_arrow-down.svg);
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    margin-bottom: -355px;
+.button-right{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 304px;
+    top: 1120px;
+    background: var(--main-color);
 }
-
-button.oeuvres {
-    width: 256px;
-    height: 34px;
-    margin-top: 40px;
-    margin-bottom: 51px;
-    margin-left: 15px;
-    padding-left: 8px;
-    padding-right: 10px;
-    display: flex;
-    align-items: center;
-    background-color: var(--thirth-color);
-    color: var(--second-color);
-    font-family: 'helveticabold', sans-serif;
-    font-size: var(--accueil-navigation);
-    border: none;
+.button-left{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 21px;
+    top: 1120px;
+    background: var(--main-color);
 }
-
-button.oeuvres::after {
-    padding-top: 1px;
-
-    margin-left: 70px;
-    content: url(../../../public/icons/icon_arrow-right.svg);
+.arrow-left{
+    position: absolute;
+    left: 13.96%;
+    right: 78.5%;
+    top: 65.57%;
+    bottom: 33.73%;
+    border: 4.63355px solid var(--thirth-color);
+    transform: matrix(0, -1, -1, 0, 0, 0);
 }
-
-
-
-/* Billetterie */
-
-.bgimage3billetterie {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: 523px;
-    background-size: 100%;
-    background-image: url(../../../public/img/accueil/img-accueil-3.webp);
-}
-
-button.billetterie {
-    width: 245px;
-    height: 34px;
-    margin-top: 40px;
-    margin-bottom: 38px;
-    margin-left: 15px;
-    padding-left: 8px;
-    padding-right: 10px;
-    display: flex;
-    align-items: center;
-    background-color: var(--thirth-color);
-    color: var(--second-color);
-    font-family: 'helveticabold', sans-serif;
-    font-size: var(--accueil-navigation);
-    border: none;
-}
-
-button.billetterie::after {
-    padding-top: 1px;
-    margin-left: 70px;
-    content: url(../../../public/icons/icon_arrow-right.svg);
-}
-
-.bg-img-header{
-    margin-top: -27px;
-    height: 351px;
-    background-image: url(../../../public/img/all/bg-header.webp);
-    background-size: 100%;
+.arrow-right{
+    position: absolute;
+    left: 86.13%;
+    right: 6.32%;
+    top: 65.57%;
+    bottom: 33.73%;
+    border: 4.63355px solid var(--thirth-color);
+    transform: rotate(-90deg);
 }

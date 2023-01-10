@@ -1,28 +1,32 @@
-.bg-color{
+.bg-color {
     background-color: var(--second-color);
 }
-
-.padding-top50{
+.padding-top50 {
     padding-top: 50px;
 }
-
-.padding-text18{
+.padding-text18 {
     padding-left: 18px;
     padding-right: 18px;
 }
-
-.padding-left18{
-padding-left: 18px;
+.padding-left18 {
+    padding-left: 18px;
 }
-
-.padding-right18{
+.padding-right18 {
     padding-right: 18px;
 }
-
-.align-left{
+.align-left {
     text-align: left;
 }
-
-.align-right{
+.align-right {
     text-align: right;
+}
+.padding-forme {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.margintop211 {
+    margin-top: 211px;
+}
+.sous-ligne {
+    text-decoration: underline;
 }

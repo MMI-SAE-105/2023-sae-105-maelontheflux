@@ -1,0 +1,136 @@
+/* Artistes */
+.bgimage1artistes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 441px;
+    background-size: 100%;
+    background-image: url(../../../public/img/accueil/img-accueil-1.webp);
+}
+
+.bgimage1artistes::before {
+    content: url(../../../public/icons/icon_arrow-down.svg);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: -358px;
+
+}
+
+button.artistes {
+    width: 256px;
+    height: 34px;
+    margin-top: 40px;
+    margin-bottom: 71px;
+    margin-left: 15px;
+    padding-left: 8px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--thirth-color);
+    color: var(--second-color);
+    font-family: 'helveticabold', sans-serif;
+    font-size: var(--accueil-navigation);
+    border: none;
+}
+
+button.artistes::after {
+    padding-top: 1px;
+    margin-left: 58px;
+    content: url(../../../public/icons/icon_arrow-right.svg);
+}
+
+
+
+/* Oeuvres */
+
+.bgimage2oeuvres {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height:  372px;
+    background-size: 100%;
+    background-image: url(../../../public/img/accueil/img-accueil-2.webp);
+}
+
+.bgimage2oeuvres::before {
+
+    content: url(../../../public/icons/icon_arrow-down.svg);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: -355px;
+}
+
+button.oeuvres {
+    width: 256px;
+    height: 34px;
+    margin-top: 40px;
+    margin-bottom: 51px;
+    margin-left: 15px;
+    padding-left: 8px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--thirth-color);
+    color: var(--second-color);
+    font-family: 'helveticabold', sans-serif;
+    font-size: var(--accueil-navigation);
+    border: none;
+}
+
+button.oeuvres::after {
+    padding-top: 1px;
+    margin-left: 58px;
+    content: url(../../../public/icons/icon_arrow-right.svg);
+}
+
+
+
+/* Billetterie */
+
+.bgimage3billetterie {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 523px;
+    background-size: 100%;
+    background-image: url(../../../public/img/accueil/img-accueil-3.webp);
+}
+
+button.billetterie {
+    width: 245px;
+    height: 34px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+    margin-left: 15px;
+    padding-left: 8px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--thirth-color);
+    color: var(--second-color);
+    font-family: 'helveticabold', sans-serif;
+    font-size: var(--accueil-navigation);
+    border: none;
+}
+
+button.billetterie::after {
+    padding-top: 1px;
+    margin-left: 58px;
+    content: url(../../../public/icons/icon_arrow-right.svg);
+}
+
+.bg-img-header{
+    margin-top: -27px;
+    height: 351px;
+    background-image: url(../../../public/img/all/bg-header.webp);
+    background-size: 100%;
+}
