@@ -1,0 +1,21 @@
+/* Color styles */
+:root {
+   --main-color: rgba(174, 0, 22, 1);
+    --second-color: rgba(15, 15, 15, 1);
+    --thirth-color: rgba(255, 255, 255, 1);
+
+/* Text-size styles */
+    --titre-accueil: 36px;
+    --accueil-titre-article: 32.43243408203125px;
+    --accueil-corps: 14.040000915527344px;
+    --accueil-navigation: 14px;
+    --titre-sous-article: 32px;
+    --corps-article: 18px;
+    --citation-art: 14px;
+    --titre-frise: 24px;
+    --corps-frise: 15px;
+    --titre-menu: 26px;
+    --footer-titre: 20px;
+    --footer-corps: 16px;
+    --footer-link: 10px; 
+}
