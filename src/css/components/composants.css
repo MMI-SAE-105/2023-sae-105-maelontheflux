@@ -106,3 +106,38 @@
     border: 4.63355px solid var(--thirth-color);
     transform: rotate(-90deg);
 }
+
+/*Formulaire*/
+input {
+    font-family: 'helvetica' "typewriter", sans-serif;
+    font-size: var(--corps-article);
+    text-align: center;
+}
+
+  input[message=name]{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    text-align: center;
+    caret-color: var(--thirth-color);
+}
+
+  input[message=mail]{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    text-align: center;
+    caret-color: var(--thirth-color);
+}
+
+  input[message=object]{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    text-align: left;
+    caret-color: var(--thirth-color);
+}
+  
+  input[message=message]{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    text-align: start;
+    caret-color: var(--thirth-color);
+}

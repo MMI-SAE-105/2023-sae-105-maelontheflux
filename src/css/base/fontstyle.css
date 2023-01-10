@@ -134,6 +134,13 @@ h4 {
     color: var(--thirth-color);
 }
 
+.pcorps-contact-rouge{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--corps-article);
+    margin-left: 29px;
+    letter-spacing: -6.5%;
+    color: var(--main-color);
+}
 
 
 
