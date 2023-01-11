@@ -13,3 +13,10 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
+.img-pop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
