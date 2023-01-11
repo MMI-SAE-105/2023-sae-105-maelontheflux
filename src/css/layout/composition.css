@@ -162,4 +162,5 @@ img {
 
 .carrousel_ecran figure {
     margin: none;
+    scroll-snap-align: start
 }
