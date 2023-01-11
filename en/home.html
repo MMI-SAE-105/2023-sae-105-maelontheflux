@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
 
 <head>
     <meta charset="UTF-8">
@@ -7,37 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exposition Art Concret</title>
     <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
-    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-<header>
+
+<header class="bg-img-header">
+    <a href="../fr/accueil.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/accueil.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+        
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">The great artists</p>
+        </a>
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">The great works</p>
+        </a>
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Ticketing</p>
+        </a>
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top50">Exposition<br>Art Concret</h1>
+    </div>
 </header>
 
-<body>
+<body class="bg-color">
     <main>
-        <h1>Exposition Art Concret</h1>
-        
         <card>
             <div class="bgimage1artistes">
-                <h3>Les grands artistes</h3>
-                <p class="paccueil">L’art concret par les plus grands de leur mouvement, Josef-Albers, Hans
-                    Hinterreiter, Lolo Soldevilla ou encore Robert Strübin.</p>
-                <a href="../fr/artistes.html"><button class="lieux">
-                        <p>Découvrir les artistes</p>
+                <p class="paccueil-titre-article">The great artists</p>
+
+                <p class="paccueil-corps">Concrete art by the greatest of their movement, Josef-Albers, Hans
+                    Hinterreiter, Lolo Soldevilla or even Robert Strübin.</p>
+
+                <a href="../fr/artistes.html"><button class="artistes">
+                        <p>Discover the artists</p>
+
                     </button></a>
             </div>
         </card>
 
+
         <card>
             <div class="bgimage2oeuvres">
-                <h3>Les grandes oeuvres</h3>
-                <p class="paccueil">Film réalisé par Mel Gibson<br>
-                    avec Andrew Garfield. Un très<br>
-                    grand succès du cinéma, nommé<br>
-                    aux oscars découvrez le synopsis.
+                <p class="paccueil-titre-article">The great works</p>
+
+
+                <p class="paccueil-corps">The greatest works of concrete art, with an abstract tendency, accentuated by
+                    principle of attraction.
                 </p>
-                <a href="../fr/oeuvres.html"><button class="film">
-                        <p>Découvrir les oeuvres</p>
+
+
+                <a href="../fr/oeuvres.html"><button class="oeuvres">
+                        <p>Discover the works</p>
                     </button></a>
             </div>
         </card>
@@ -45,60 +84,45 @@
 
         <card>
             <div class="bgimage3billetterie">
-                <h3>Billetterie</h3>
-                <p class="paccueil">L’exposition de l’art concret ouvre ses portes du 13 avril au 23 juin 2021, ne
-                    passez pas à coté de cette occasion et visitez vite la billetterie.
-                </p>
-                <a href="../fr/billetterie.html"><button class="livre">
-                        <p>Découvrir la billeterie</p>
-                    </button></a>
-            </div>
-        </card>
+                <p class="paccueil-titre-article">Ticketing</p>
 
-        <card>
-            <div class="bgimagemusique">
-                <h3>Guren no yumiya</h3>
-                <p class="paccueil">Shingeki No Kyojin, plus connu sous le<br>
-                    nom de “L’Attaque des Titans”, écoutez<br>
-                    son célèbre générique.
+                <p class="paccueil-corps">The concrete art exhibition opens its doors from April 13 to June 23, 2021, only
+                    Don't miss this opportunity and quickly visit the ticket office.
                 </p>
-                <a href="../fr/musique.html"><button class="musique">
-                        <p>Découvrir l’histoire</p>
-                    </button></a>
-            </div>
-        </card>
 
-        <card>
-            <div class="bgimageregret">
-                <h3>La menace technologique</h3>
-                <p class="paccueil">Les nouvelles technologies pesent au<br>
-                    dessus de nos têtes...
-                </p>
-                <a href="../fr/regret.html"><button class="regret">
-                        <p>Découvrir l’histoire</p>
-                    </button></a>
-            </div>
-        </card>
-
-        <card>
-            <div class="bgimageespoir">
-                <h3>Fin de la cyberguerre</h3>
-                <p class="paccueil">La guerre invisble, l’espaces<br>
-                    informatique...
-                </p>
-                <a href="../fr/espoir.html"><button class="espoir">
-                        <p>Découvrir l’histoire</p>
+                <a href="../fr/billetterie.html"><button class="billetterie">
+                        <p>Discover the ticket office</p>
                     </button></a>
             </div>
         </card>
 </body>
 
-<body>
-    <main>
+<footer>
+    <div class="rectangle-footer">
+        <div>
+            <img class="logo-centrer" src="../public/icons/icon_logo-big.svg">
+            <a href="../fr/billetterie.html">
+                <p class="pfooter-titre text-center-footer sous-ligne">Ticketing & Contact</p>
+            </a>
+            <p class="pfooter-corps text-center-footer paddingtop45">Fondation Cartier, 261 Bd Raspail, 75014 <br>
+                Paris, France</p>
 
-    </main>
-</body>
-
-<footer></footer>
+            <div class="logo-rs">
+                <adress>
+                    <a class="pfooter-name" href="mailto:info.reservation@fondation.cartier.com"><img class="icon-mail"
+                            src="../public/icons/icon_mail.svg"></a>
+                </adress>
+                <a href="https://www.instagram.com/fondationcartier/"><img class="icon-insta"
+                        src="../public/icons/icon_instagram.svg"></a>
+                <a href="https://www.facebook.com/FondationCartier"><img class="icon-facebook"
+                        src="../public/icons/icon_facebook.svg"></a>
+            </div>
+            <div class="bas-footer text-center-footer">
+                <p class="pfooter-link bottom-element-footer">Design graphique & developpement : maelontheflux</p>
+            </div>
+            <a href="http://mmimontbeliard.com/"><img class="mmi-logo" src="../public/img/all/mmi-logo-footer.webp"></a>
+        </div>
+    </div>
+</footer>
 
 </html>
