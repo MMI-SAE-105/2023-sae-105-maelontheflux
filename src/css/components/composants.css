@@ -190,3 +190,14 @@ button[type=billetterie] {
     border-radius: 5px;
     border: none;
   }
+
+/* Boutton alpine image pop */
+
+.boutton-img-pop{
+    position: relative;
+    width: 196px;
+    height: 74px;
+    background: var(--main-color);
+    border-radius: 5px;
+    border: none;
+}
