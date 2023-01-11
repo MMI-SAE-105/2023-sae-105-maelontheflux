@@ -54,50 +54,44 @@
 <body>
 
     <body>
-        <div class="carrousel" x-data>
+        <div class="carrousel" x-data="{
+            hrefCourant: '#ecran-1',
+            }">
             <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth"
-                class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">
+                class="carrousel_btn carrousel_btn-avant" aria-label="oeuvre d'avant">
                 &lt;</button>
             <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth"
-                class="carrousel_btn carrousel_btn-apres" aria-label="slide
-                        suivant">></button>
+                class="carrousel_btn carrousel_btn-apres" aria-label="oeuvre d'après"></button>
             <div class="carrousel_parent-ecrans" x-ref="parent">
-                <div id="ecran-1" class="carrousel_ecran">
+                <div id="Hans" class="carrousel_ecran">
                     <figure>
-                        <img src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
+                        <img src="../public/img/carroussel/img-carroussel-hans-2.webp" alt="oeuvre de Hans">
                     </figure>
                 </div>
-                <div id="ecran-2" class="carrousel_ecran">
+                <div id="Josef" class="carrousel_ecran">
                     <figure>
-                        <img src="https://picsum.photos/seed/2/500/300" alt="image ecran 2">
-                        <figcaption>Ecran 2</figcaption>
+                        <img src="../public/img/carroussel/img-carroussel-josef-2.webp" alt="oeuvre de Josef">
+                        <figcaption>Oeuvre Josef</figcaption>
                     </figure>
                 </div>
-                <div id="ecran-3" class="carrousel_ecran">
+                <div id="Lolo" class="carrousel_ecran">
                     <figure>
-                        <img src="https://picsum.photos/seed/3/500/300" alt="image ecran 3">
-                        <figcaption>Ecran 3</figcaption>
+                        <img src="../public/img/carroussel/img-carroussel-lolo-2.webp" alt="oeuvre de Lolo">
+                        <figcaption>Oeuvre Lolo</figcaption>
                     </figure>
                 </div>
-                <div id="ecran-4" class="carrousel_ecran">
+                <div id="Robert" class="carrousel_ecran">
                     <figure>
-                        <img src="https://picsum.photos/seed/4/500/300" alt="image ecran 4">
-                        <figcaption>Ecran 4</figcaption>
-                    </figure>
-                </div>
-                <div id="ecran-5" class="carrousel_ecran">
-                    <figure>
-                        <img src="https://picsum.photos/seed/5/500/300" alt="image ecran 5">
-                        <figcaption>Ecran 5</figcaption>
+                        <img src="../public/img/carroussel/img-carroussel-robert-2.webp" alt="oeuvre de Robert">
+                        <figcaption>Oeuvre Robert</figcaption>
                     </figure>
                 </div>
             </div>
             <ul class="caroussel_liste-liens">
-                <li><a href="#ecran-1" class="caroussel_lien">ecran 1</a></li>
-                <li><a href="#ecran-2" class="caroussel_lien">ecran 2</a></li>
-                <li><a href="#ecran-3" class="caroussel_lien">ecran 3</a></li>
-                <li><a href="#ecran-4" class="caroussel_lien">ecran 4</a></li>
-                <li><a href="#ecran-5" class="caroussel_lien">ecran 5</a></li>
+                <li><a href="#Hans" class="caroussel_lien">Oeuvre Hans</a></li>
+                <li><a href="Josef" class="caroussel_lien">Oeuvre Josef</a></li>
+                <li><a href="#Lolo" class="caroussel_lien">Oeuvre Lolo</a></li>
+                <li><a href="#Robert" class="caroussel_lien">Oeuvre Robert</a></li>
             </ul>
         </div>
     </body>
