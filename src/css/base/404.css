@@ -1,0 +1,19 @@
+.ptitre404{
+    font-family: 'raleighbold';
+    font-size: var(--titre-sous-article);
+    text-align: left;
+    color: var(--thirth-color);
+
+}
+.psoustitre404{
+    font-family: 'helvetica';
+    font-size: var(--titre-sous-article);
+    text-align: center;
+    color: var(--thirth-color);
+}
+.pcorps404{
+    font-family: 'helvetica';
+    font-size: var(--corps-frise);
+    text-align: left;
+    color: var(--thirth-color);
+}
