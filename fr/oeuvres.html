@@ -51,48 +51,17 @@
     </div>
 </header>
 
-<body>
-        <div class="carrousel" x-data="{
-            hrefCourant: '#ecran-1',
-            }">
-            <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth"
-                class="carrousel_btn carrousel_btn-avant" aria-label="oeuvre d'avant">
-                &lt;</button>
-            <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth"
-                class="carrousel_btn carrousel_btn-apres" aria-label="oeuvre d'après"></button>
-            <div class="carrousel_parent-ecrans" x-ref="parent">
-                <div id="Hans" class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/carroussel/img-carroussel-hans-2.webp" alt="oeuvre de Hans">
-                    </figure>
-                </div>
-                <div id="Josef" class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/carroussel/img-carroussel-josef-2.webp" alt="oeuvre de Josef">
-                        <figcaption>Oeuvre Josef</figcaption>
-                    </figure>
-                </div>
-                <div id="Lolo" class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/carroussel/img-carroussel-lolo-2.webp" alt="oeuvre de Lolo">
-                        <figcaption>Oeuvre Lolo</figcaption>
-                    </figure>
-                </div>
-                <div id="Robert" class="carrousel_ecran">
-                    <figure>
-                        <img src="../public/img/carroussel/img-carroussel-robert-2.webp" alt="oeuvre de Robert">
-                        <figcaption>Oeuvre Robert</figcaption>
-                    </figure>
-                </div>
-            </div>
-            <ul class="caroussel_liste-liens">
-                <li><a href="#Hans" class="caroussel_lien" {actif:hrefCourant==='#Hans'}>Oeuvre Hans</a></li>
-                <li><a href="Josef" class="caroussel_lien" {actif:hrefCourant==='#Josef'}>Oeuvre Josef</a></li>
-                <li><a href="#Lolo" class="caroussel_lien" {actif:hrefCourant==='#Lolo'}>Oeuvre Lolo</a></li>
-                <li><a href="#Robert" class="caroussel_lien" {actif:hrefCourant==='#Robert'}>Oeuvre Robert</a></li>
-            </ul>
-        </div>
-    </body>
+<body class="bg-color">
+    <div>
+        <p class="ptitre-frise padding-text18">L’art concret</p>
+        <p class="pcorps-article">L'art concret est un mouvement artistique de tendance abstraite.</p>
+        <p class="pcorps-article">Ce mouvement artistique met fortement l'accent sur l'abstraction.</p>
+        <p class="pcorps-article">Le terme concret a été inventé par l'artiste Theo Van Doesburg. Lorsqu'il a fondé un
+            groupe dans les années 1930 appelé "Art Concret".</p>
+
+        <p class="ptitre-frise padding-text18">Découvrez le meilleur de l’art concret</p>
+    </div>
+</body>
 
     <footer>
         <div class="rectangle-footer">
