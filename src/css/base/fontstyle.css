@@ -125,3 +125,11 @@ h4 {
     font-size: var(--footer-link);
     color: var(--thirth-color);
 }
+
+.redirection-cookie{
+    font-family: 'helvetica', sans-serif;
+    font-size: var(--redirection-cookies);
+    color: var(--second-color);
+    margin-top: 100px;
+    text-align: center;
+}
