@@ -62,44 +62,78 @@
 
         <p class="ptitre-frise padding-text18">Découvrez le meilleur de l’art concret</p>
     </div>
-    <div>
-        <img src="../public/img/carroussel/img-carroussel-hans-1.webp" alt="">
-        <img src="../public/img/carroussel/img-carroussel-lolo-1.webp" alt="">
-        <img src="../public/img/carroussel/img-carroussel-hans-2.webp" alt="">
-        <img src="../public/img/carroussel/img-carroussel-josef-2.webp" alt="">
-        <img src="../public/img/carroussel/img-carroussel-robert-1.webp" alt="">
-    </div>
-    </body>
-    <footer>
-        <div class="rectangle-footer">
-            <div>
-                <img class="logo-centrer" src="../public/icons/icon_logo-big.svg">
-                <a href="../fr/billetterie.html">
-                    <p class="pfooter-titre text-center-footer sous-ligne">Billetterie & Contact</p>
-                </a>
-                <p class="pfooter-corps text-center-footer paddingtop45">Fondation Cartier, 261 Bd Raspail, 75014
-                    <br>
-                    Paris, France
-                </p>
 
-                <div class="logo-rs">
-                    <adress>
-                        <a class="pfooter-name" href="mailto:info.reservation@fondation.cartier.com"><img
-                                class="icon-mail" src="../public/icons/icon_mail.svg"></a>
-                    </adress>
-                    <a href="https://www.instagram.com/fondationcartier/"><img class="icon-insta"
-                            src="../public/icons/icon_instagram.svg"></a>
-                    <a href="https://www.facebook.com/FondationCartier"><img class="icon-facebook"
-                            src="../public/icons/icon_facebook.svg"></a>
-                </div>
-                <div class="bas-footer text-center-footer">
-                    <p class="pfooter-link bottom-element-footer">Design graphique & développement : maelontheflux
-                    </p>
-                </div>
-                <a href="http://mmimontbeliard.com/"><img class="mmi-logo"
-                        src="../public/img/all/mmi-logo-footer.webp"></a>
+
+    <div>
+        <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
+            <button class="button-carrousel button-left"
+                @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth"> <img class="button-left1" src="/public/img/carroussel/img-left.webp"></button>
+                    <button class="button-carrousel button-right" 
+                        @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth"> <img class="button-right2"src="/public/img/carroussel/img-right.webp"></button>
+                        
+                    <div class="carrousel_parent-ecran" x-ref="parent">
+
+
+                        <div id="ecran-1" class="carrousel_ecran">
+                            <figure>
+                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-hans-1.webp" alt="Oeuvre de Hans">
+                            </figure>
+                        </div>
+
+
+                        <div id="ecran-2" class="carrousel_ecran">
+                            <figure>
+                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-josef-1.webp" alt="Oeuvre de Josef">
+                            </figure>
+                        </div>
+
+
+                        <div id="ecran-3" class="carrousel_ecran">
+                            <figure>
+                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-lolo-1.webp" alt="Oeuvre de Lolo">
+                            </figure>
+                        </div>
+
+
+                        <div id="ecran-4" class="carrousel_ecran">
+                            <figure>
+                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-robert-1.webp" alt="Oeuvre de Robert">
+                            </figure>
+                        </div>
+
+    </div>
+
+
+</body>
+<footer>
+    <div class="rectangle-footer margintop100">
+        <div>
+            <img class="logo-centrer" src="../public/icons/icon_logo-big.svg">
+            <a href="../fr/billetterie.html">
+                <p class="pfooter-titre text-center-footer sous-ligne">Billetterie & Contact</p>
+            </a>
+            <p class="pfooter-corps text-center-footer paddingtop45">Fondation Cartier, 261 Bd Raspail, 75014
+                <br>
+                Paris, France
+            </p>
+
+            <div class="logo-rs">
+                <adress>
+                    <a class="pfooter-name" href="mailto:info.reservation@fondation.cartier.com"><img class="icon-mail"
+                            src="../public/icons/icon_mail.svg"></a>
+                </adress>
+                <a href="https://www.instagram.com/fondationcartier/"><img class="icon-insta"
+                        src="../public/icons/icon_instagram.svg"></a>
+                <a href="https://www.facebook.com/FondationCartier"><img class="icon-facebook"
+                        src="../public/icons/icon_facebook.svg"></a>
             </div>
+            <div class="bas-footer text-center-footer">
+                <p class="pfooter-link bottom-element-footer">Design graphique & développement : maelontheflux
+                </p>
+            </div>
+            <a href="http://mmimontbeliard.com/"><img class="mmi-logo" src="../public/img/all/mmi-logo-footer.webp"></a>
         </div>
-    </footer>
+    </div>
+</footer>
 
 </html>

@@ -135,3 +135,52 @@ button.billetterie::after {
     background-size: 100%;
 }
 
+/* Carrousel */
+.img-carrousel {
+    padding-top: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.carrousel_parent-ecran {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 40%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.carrousel_ecran {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+figure {
+    margin: 0;
+}
+
+.carrousel {
+    position: relative;
+}
+
+.button-carrousel {
+    z-index: 10;
+    margin-top: -900px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+}
+
+.button-left1 {
+
+    background-color: transparent;
+}
+
+.button-right2 {
+    background-color: transparent;
+}
