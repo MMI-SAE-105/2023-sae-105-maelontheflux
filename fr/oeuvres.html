@@ -66,42 +66,47 @@
 
     <div>
         <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
-            <button class="button-carrousel button-left"
-                @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth"> <img class="button-left1" src="/public/img/carroussel/img-left.webp"></button>
-                    <button class="button-carrousel button-right" 
-                        @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth"> <img class="button-right2"src="/public/img/carroussel/img-right.webp"></button>
-                        
-                    <div class="carrousel_parent-ecran" x-ref="parent">
+            <button class="button-carrousel button-left" @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth">
+                <img class="button-left1" src="/public/img/carroussel/img-left.webp"></button>
+            <button class="button-carrousel button-right"
+                @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth"> <img class="button-right2"
+                    src="/public/img/carroussel/img-right.webp"></button>
+
+            <div class="carrousel_parent-ecran" x-ref="parent">
 
 
-                        <div id="ecran-1" class="carrousel_ecran">
-                            <figure>
-                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-hans-1.webp" alt="Oeuvre de Hans">
-                            </figure>
-                        </div>
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-hans-1.webp"
+                            alt="Oeuvre de Hans">
+                    </figure>
+                </div>
 
 
-                        <div id="ecran-2" class="carrousel_ecran">
-                            <figure>
-                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-josef-1.webp" alt="Oeuvre de Josef">
-                            </figure>
-                        </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-josef-1.webp"
+                            alt="Oeuvre de Josef">
+                    </figure>
+                </div>
 
 
-                        <div id="ecran-3" class="carrousel_ecran">
-                            <figure>
-                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-lolo-1.webp" alt="Oeuvre de Lolo">
-                            </figure>
-                        </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-lolo-1.webp"
+                            alt="Oeuvre de Lolo">
+                    </figure>
+                </div>
 
 
-                        <div id="ecran-4" class="carrousel_ecran">
-                            <figure>
-                                <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-robert-1.webp" alt="Oeuvre de Robert">
-                            </figure>
-                        </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img class="img-carrousel" src="../public/img/carroussel/img-carroussel-robert-1.webp"
+                            alt="Oeuvre de Robert">
+                    </figure>
+                </div>
 
-    </div>
+            </div>
 
 
 </body>

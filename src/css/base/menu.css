@@ -1,5 +1,5 @@
 /* MENU */
-.icon-croix-contour{
+.icon-croix-contour {
     position: absolute;
     top: 32px;
     right: 16px;
@@ -7,12 +7,12 @@
     border: none;
 }
 
-.icon-menu-croix{
+.icon-menu-croix {
     background-color: none;
     border: none;
 }
 
-.bg-menu{
+.bg-menu {
     position: absolute;
     top: 0px;
     width: 100%;
@@ -21,20 +21,20 @@
     z-index: 2;
 }
 
-.text-menu{
+.text-menu {
     padding-left: 42px;
     z-index: 3;
 }
 
-.margintop100{
+.margintop100 {
     margin-top: 100px;
 }
 
-.margintop39{
+.margintop39 {
     padding-top: 39px;
 }
 
-.align-mid{
+.align-mid {
     position: relative;
     text-align: center;
     bottom: -45%;
@@ -42,5 +42,5 @@
 
 .stopscroll,
 .stopscroll body {
-  overflow: hidden;
+    overflow: hidden;
 }

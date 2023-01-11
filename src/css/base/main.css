@@ -1,6 +1,7 @@
 body {
     position: relative;
 }
+
 footer {
     position: absolute;
 }
@@ -9,53 +10,67 @@ footer {
 .bg-color {
     background-color: var(--second-color);
 }
+
 .padding-top50 {
     padding-top: 50px;
 }
+
 .padding-text18 {
     padding-left: 18px;
     padding-right: 18px;
 }
+
 .padding-left18 {
     padding-left: 18px;
 }
+
 .padding-right18 {
     padding-right: 18px;
 }
+
 .align-left {
     text-align: left;
 }
+
 .align-right {
     text-align: right;
 }
+
 .padding-forme {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+
 .margintop211 {
     margin-top: 211px;
 }
+
 .sous-ligne {
     text-decoration: underline;
 }
-.alignement{
+
+.alignement {
     display: flex;
     align-items: center
 }
-.poscenter{
+
+.poscenter {
     justify-content: space-between;
 }
-.margintop30{
+
+.margintop30 {
     margin-top: 30px;
 }
-.paddingtop20{
+
+.paddingtop20 {
     padding-top: 20px;
 }
-.paddingcitation{
+
+.paddingcitation {
     padding-left: 20px;
     padding-right: 20px;
 }
-.margintop15{
+
+.margintop15 {
     margin-top: 15px;
 }
-

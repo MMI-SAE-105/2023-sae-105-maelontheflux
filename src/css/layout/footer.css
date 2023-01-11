@@ -30,16 +30,17 @@
     left: 330px;
 }
 
-.paddingtop45{
+.paddingtop45 {
     padding-top: 45px;
 }
-.bottom-element-footer{
+
+.bottom-element-footer {
     position: absolute;
     left: 20%;
     bottom: 0;
 }
 
-.marginleft{
+.marginleft {
     margin-left: 10px;
 }
 
@@ -50,18 +51,19 @@
     justify-content: center;
 }
 
-.icon-mail{
-    width: 40%;
-    padding-right: 1px;
-    padding-left: 1px;
-}
-.icon-insta{
+.icon-mail {
     width: 40%;
     padding-right: 1px;
     padding-left: 1px;
 }
 
-.icon-facebook{
+.icon-insta {
+    width: 40%;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.icon-facebook {
     width: 40%;
     padding-right: 1px;
     padding-left: 1px;

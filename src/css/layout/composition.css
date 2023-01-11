@@ -52,7 +52,7 @@ button.artistes::after {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    height:  372px;
+    height: 372px;
     background-size: 100%;
     background-image: url(../../../public/img/accueil/img-accueil-2.webp);
 }
@@ -128,7 +128,7 @@ button.billetterie::after {
     content: url(../../../public/icons/icon_arrow-right.svg);
 }
 
-.bg-img-header{
+.bg-img-header {
     margin-top: -27px;
     height: 351px;
     background-image: url(../../../public/img/all/bg-header.webp);

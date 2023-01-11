@@ -1,24 +1,26 @@
-.ptitre404{
+.ptitre404 {
     font-family: 'raleighbold';
     font-size: var(--titre-sous-article);
     text-align: left;
     color: var(--thirth-color);
 
 }
-.psoustitre404{
+
+.psoustitre404 {
     font-family: 'helvetica';
     font-size: var(--titre-sous-article);
     text-align: center;
     color: var(--thirth-color);
 }
-.pcorps404{
+
+.pcorps404 {
     font-family: 'helvetica';
     font-size: var(--corps-frise);
     text-align: left;
     color: var(--thirth-color);
 }
 
-.pliens404{
+.pliens404 {
     font-family: 'helvetica';
     font-size: 18px;
     text-align: left;
@@ -26,14 +28,13 @@
     text-decoration: underline;
 }
 
-.margintop25{
-margin-top: 25px;
+.margintop25 {
+    margin-top: 25px;
 }
-.paddingleft20{
+
+.paddingleft20 {
     padding-left: 20px;
 }
-
-
 
 input[type=text] {
     position: relative;
@@ -45,12 +46,9 @@ input[type=text] {
     border: none;
 }
 
-input[placeholder=text]::placeholder{
+input[placeholder=text]::placeholder {
     color: var(--thirth-color);
 }
-
-
-
 
 button[type=submit] {
     position: relative;
@@ -62,4 +60,3 @@ button[type=submit] {
     border-radius: 5px;
     border: none;
 }
-

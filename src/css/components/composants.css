@@ -1,5 +1,5 @@
 /* Ellipse Frise */
-.elipse-1{
+.elipse-1 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -8,7 +8,8 @@
     background: var(--thirth-color);
     border-radius: 100px;
 }
-.elipse-2{
+
+.elipse-2 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -17,7 +18,8 @@
     background: var(--main-color);
     border-radius: 100px;
 }
-.elipse-3{
+
+.elipse-3 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -26,7 +28,8 @@
     background: var(--thirth-color);
     border-radius: 100px;
 }
-.elipse-4{
+
+.elipse-4 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -38,7 +41,7 @@
 
 
 /* Trait Frise */
-.trait-1{
+.trait-1 {
     position: absolute;
     width: 6.5px;
     height: 249px;
@@ -48,7 +51,8 @@
     border-radius: 22px;
     transform: rotate(-49.31deg);
 }
-.trait-2{
+
+.trait-2 {
     position: absolute;
     width: 6.5px;
     height: 249px;
@@ -58,7 +62,8 @@
     border-radius: 22px;
     transform: rotate(49.36deg)
 }
-.trait-3{
+
+.trait-3 {
     position: absolute;
     width: 6.5px;
     height: 249px;
@@ -71,7 +76,7 @@
 
 /* Bouton Carrousel */
 
-.button-right{
+.button-right {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -79,7 +84,8 @@
     top: 1120px;
     background: var(--main-color);
 }
-.button-left{
+
+.button-left {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -87,7 +93,8 @@
     top: 1120px;
     background: var(--main-color);
 }
-.arrow-left{
+
+.arrow-left {
     position: absolute;
     left: 13.96%;
     right: 78.5%;
@@ -96,7 +103,8 @@
     border: 4.63355px solid var(--thirth-color);
     transform: matrix(0, -1, -1, 0, 0, 0);
 }
-.arrow-right{
+
+.arrow-right {
     position: absolute;
     left: 86.13%;
     right: 6.32%;
@@ -114,28 +122,28 @@ input {
     color: var(--thirth-color)
 }
 
-input[message=name]{
+input[message=name] {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: center;
     caret-color: var(--thirth-color);
 }
 
-input[message=mail]{
+input[message=mail] {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: center;
     caret-color: var(--thirth-color);
 }
 
-input[message=object]{
+input[message=object] {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: left;
     caret-color: var(--thirth-color);
 }
-  
-input[message=message]{
+
+input[message=message] {
     font-family: 'helvetica', sans-serif;
     font-size: var(--corps-article);
     text-align: start;
@@ -151,15 +159,15 @@ input[type=text] {
     background: var(--main-color);
     border-radius: 5px;
     border: none;
-  }
-  
+}
+
 input[placeholder=Message] {
     color: var(--thirth-color);
-  }
-  
+}
+
 input[placeholder=Message]::placeholder {
     color: var(--thirth-color);
-  }
+}
 
 input[type=message] {
     position: relative;
@@ -170,7 +178,7 @@ input[type=message] {
     border-radius: 5px;
     border: none;
 
-  }
+}
 
 button[type=send] {
     position: relative;
@@ -180,7 +188,7 @@ button[type=send] {
     background: var(--main-color);
     border-radius: 5px;
     border: none;
-  }
+}
 
 button[type=billetterie] {
     position: relative;
@@ -189,11 +197,11 @@ button[type=billetterie] {
     background: var(--main-color);
     border-radius: 5px;
     border: none;
-  }
+}
 
 /* Boutton alpine image pop */
 
-.boutton-img-pop{
+.boutton-img-pop {
     position: relative;
     width: 196px;
     height: 74px;

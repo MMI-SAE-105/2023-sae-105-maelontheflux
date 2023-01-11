@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuOuvert1: false, imgPop1: false}":class="{stopscroll:menuOuvert1,}">
+<html lang="fr" x-data="{menuOuvert1: false, imgPop1: false}" :class="{stopscroll:menuOuvert1,}">
 
 <head>
     <meta charset="UTF-8">
@@ -109,11 +109,13 @@
             géométriques, et remplace ce style dans les années 40 par des compositions en rosaces.</p>
     </div>
     <div class="align-mid">
-        <button class="boutton-img-pop" aria-controls="imgPop" @click="imgPop1 = ! imgPop1"><p class="pcorps-article">Cliquer pour voir une oeuvre !</p></button>
+        <button class="boutton-img-pop" aria-controls="imgPop" @click="imgPop1 = ! imgPop1">
+            <p class="pcorps-article">Cliquer pour voir une oeuvre !</p>
+        </button>
         <nav id="imgPop" x-show="imgPop1">
-                <img class="img-pop" src="../public/img/page hans/img-hans-1.webp">
+            <img class="img-pop" src="../public/img/page hans/img-hans-1.webp">
         </nav>
-    
+
     </div>
 
 
@@ -146,4 +148,5 @@
         </div>
     </div>
 </footer>
+
 </html>

@@ -1,21 +1,25 @@
-.header-logo{
+.header-logo {
     margin-top: 40px;
 }
-.align-item-header{
+
+.align-item-header {
     display: flex;
     justify-content: space-between;
 }
-.padding-top18{
+
+.padding-top18 {
     padding-top: 18px;
 }
-.icon-menu-contour{
+
+.icon-menu-contour {
     position: absolute;
     top: 57px;
     right: 21px;
     background-color: var(--thirth-color);
     border: none;
 }
-.icon-menu-barre{
+
+.icon-menu-barre {
     background-color: none;
     border: none;
 }
