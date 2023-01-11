@@ -21,3 +21,20 @@ img{
     width: 85%;
     z-index: 2;
 }
+
+/*Index langue*/
+
+.language-fr{
+    height: 89.02px;
+    width: 133.54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.language-en{
+    height: 89.02px;
+    width: 133.54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
