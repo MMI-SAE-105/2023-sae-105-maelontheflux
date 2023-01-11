@@ -134,3 +134,27 @@ button.billetterie::after {
     background-image: url(../../../public/img/all/bg-header.webp);
     background-size: 100%;
 }
+
+/* Carrousel */
+img {
+    width: auto;
+    height: auto;
+  }
+
+.carrousel_parent-ecrans {
+    display: flex;
+    gap: 1em;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.carrousel_ecran {
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+
+}
