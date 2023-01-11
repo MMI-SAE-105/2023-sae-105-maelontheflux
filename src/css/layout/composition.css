@@ -147,6 +147,7 @@ img {
     scroll-behavior: smooth;
     overflow-x: scroll;
     width: 100%;
+    
 }
 
 .carrousel_ecran {
@@ -158,3 +159,30 @@ img {
     margin: 0;
 
 }
+
+/* Boutton Carrousel */
+.carrousel {
+    position: relative;
+  }
+  
+  .carrousel_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+  }
+  
+  .carrousel_btn-avant {
+    left: 0;
+  }
+  
+  .carrousel_btn-apres {
+    right: 0;
+  }
