@@ -1,3 +1,11 @@
+body {
+    position: relative;
+}
+footer {
+    position: absolute;
+}
+
+
 .bg-color {
     background-color: var(--second-color);
 }
