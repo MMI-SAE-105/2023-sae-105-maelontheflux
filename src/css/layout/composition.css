@@ -129,74 +129,10 @@ button.billetterie::after {
 }
 
 .bg-img-header{
+    position: absolute;
+    top: 0;
     margin-top: -27px;
     height: 351px;
     background-image: url(../../../public/img/all/bg-header.webp);
     background-size: 100%;
-}
-
-/* Carrousel */
-
-* {
-    box-sizing: border-box;
-    display: flex;
-    border
-}
-
-img {
-    max-width: auto;
-    height: auto;
-}
-
-img {
-    display: flex;
-    width: 100%;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-
-}
-
-.carrousel_ecran {
-    width: 100%;
-}
-
-.carrousel_ecran figure {
-    margin: none;
-    scroll-snap-align: start
-}
-
-.carrousel {
-    position: relative;
-}
-
-.carrousel_btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 2rem;
-    height: 2rem;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    border: none;
-    display: grid;
-    place-content: center;
-    color: #fff;
-}
-
-.carrousel_btn-avant {
-    left: 0;
-}
-
-.carrousel_btn-apres {
-    right: 0;
-}
-
-
-.caroussel_liste-liens {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    gap: 1rem;
 }
