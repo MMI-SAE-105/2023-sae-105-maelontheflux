@@ -136,3 +136,29 @@ button.billetterie::after {
 }
 
 /* Carrousel */
+
+* {
+    box-sizing: border-box;
+    display: flex;
+    border
+}
+
+img {
+    max-width: auto;
+    height: auto;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+
+}
+
+.carrousel_ecran {
+    width: 100%;
+}
+
+.carrousel_ecran figure {
+    margin: none;
+}
