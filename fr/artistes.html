@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
+<html lang="fr" x-data="{menuOuvert1: false, imgPop1: false}":class="{stopscroll:menuOuvert1,}">
 
 <head>
     <meta charset="UTF-8">
@@ -108,13 +108,10 @@
             architectural aux formes
             géométriques, et remplace ce style dans les années 40 par des compositions en rosaces.</p>
     </div>
-
-
-
     <div>
         <button aria-controls="imgPop">Cliquer pour voir une image !</button>
-        <nav id="imgPop">
-                <img class="img-pop" src="../public/img/page josef/img-josef-1.webp">
+        <nav id="imgPop" x-show="imgPop1">
+                <img class="img-pop" src="../public/img/page hans/img-hans-1.webp">
         </nav>
     
     </div>
