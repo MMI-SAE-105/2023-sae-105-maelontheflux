@@ -17,3 +17,40 @@
     text-align: left;
     color: var(--thirth-color);
 }
+
+.pliens404{
+    font-family: 'helvetica';
+    font-size: 18px;
+    text-align: left;
+    color: var(--thirth-color);
+    text-decoration: underline;
+}
+
+.margintop25{
+margin-top: 25px;
+}
+
+
+input[type=text] {
+    position: relative;
+    width: 334px;
+    height: 49px;
+    left: 18px;
+    background: var(--main-color);
+    border-radius: 5px;
+    border: none;
+}
+input[placeholder=text]::placeholder{
+    color: var(--thirth-color);
+}
+button[type=submit] {
+    position: relative;
+    margin-top: 10px;
+    width: 98px;
+    height: 49px;
+    left: 18px;
+    background: var(--main-color);
+    border-radius: 5px;
+    border: none;
+}
+

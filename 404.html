@@ -1,31 +1,125 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuOuvert1: false}" :class="{stopscroll:menuOuvert1,}">
 
- <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concret Art</title>
-    <link rel="icon" href="../public/icones/icon_endlesswar-logo.svg">
-    <link rel="stylesheet" href="./src/styles.css">
-</head> 
+    <title>Page 404</title>
+    <link rel="icon" href="../public/icones/icon_logo-small-black.svg">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+
+<header class="bg-img-header">
+    <a href="../fr/index.html">
+        <img class="header-logo align" src="../public/icons/icon_logo-small-black.svg"
+            alt="logo du site Concret Art"></a>
+
+
+
+    <button class="icon-menu-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+            class="icon-menu-barre" src="../public/icons/icon_menu.svg"></button>
+
+    <nav id="mainNav" class="bg-menu" x-show="menuOuvert1" x-transition.scale.origin.top.right>
+        <a href="../fr/index.html">
+
+            <img class="padding-top18 align" src="../public/icons/icon_logo-small-white.svg"
+                alt="logo du site Concret Art"></a>
+
+        <button class="icon-croix-contour" aria-controls="mainNav" @click="menuOuvert1 = ! menuOuvert1"><img
+                class="icon-menu-croix" src="../public/icons/icon_cross.svg"></button>
+
+
+        <a href="../fr/artistes.html">
+            <p class="ptitre-menu margintop100 text-menu">Les grands artistes</p>
+        </a>
+        <a href="../fr/oeuvres.html">
+            <p class="ptitre-menu margintop39 text-menu">Les grandes œuvres</p>
+        </a>
+        <a href="../fr/billetterie.html">
+            <p class="ptitre-menu margintop39 text-menu">Billetterie</p>
+        </a>
+        <p class="pfooter-corps align-mid">Exposition d’Art Concret</p>
+    </nav>
+    <div>
+        <h1 class="padding-top50">404 | Page non trouvée</h1>
+    </div>
+</header>
+
+
+
 
 <body class="bg-color">
-    <div class="container">
-        <p class="ptitre404">Oops! Page not found.</p>
-        
-        <p class="psoustitre404" >404</p>
-        
-        <p class="pcorps404" >We can't find the page you're looking for.</p>
-        
-        <a href="./fr/index.html"><p class="pcorps404 sous-ligne">Go back home</p></a>
+    <main>
+        <div>
+            <title>404 | Page non trouvée</title>
+            <p class="ptitre404">Page non trouvée</p>
+            <p class="ptitre404">ERREUR 404</p>
+            <form action="https://google.com/" method="GET" x-data="{ q:'', }"
+                x-on:submit="q = q + ' site:concret-art-exposition.maelgrosjean.fr'">
+                <label for="q">
+                    <p class="pcorps404">Que cherchez-vous ?</p>
+                </label>
+                <input type="text" id="q" name="q" x-model="q" placeholder="Informations">
+                <button type="submit">
+                    <p class="pcorps404">Rechercher</p>
+                </button>
+            </form>
+        </div>
+        <div>
+            <p class="ptitre-menu margintop100">Les différentes pages du sites: </p>
+            <a href="./fr/artistes.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/billetterie.html"><p class="pliens404 margintop25">La billetterie</p></a>
+            <a href="./fr/Hans.html"><p class="pliens404 margintop25">L'artiste Hans</p></a>
+            <a href="./fr/Hansoeuvre1.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/Hansoeuvre2.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/index.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/josef.html"><p class="pliens404 margintop25">L'artiste Josef</p></a>
+            <a href="./fr/josefoeuvre1.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/josefoeuvre2.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/Lolo.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/Lolooeuvre1.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/Lolooeuvre1.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/oeuvres.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/robert.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/robertoeuvre1.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+            <a href="./fr/robertoeuvre2.html"><p class="pliens404 margintop25">Les grands artistes</p></a>
+        </div>
+        </div>
 
-        <p class="pcorps404" >Choose your language !</p>
-        <p class="psoustitre404">Welcome</p>
-        <a href="./en/index.html"><img class="language-en" src="./public/icons/GB.svg" alt="icones langues english"></a>
-        <p class="psoustitre404">Bienvenue</p>
-        <a href="./fr/index.html"><img class="language-fr" src="./public/icons/FR.svg" alt="icones langues francaise"></a>
-    </div>
+    </main>
 </body>
+
+
+
+<footer>
+    <div class="rectangle-footer">
+        <div>
+            <img class="logo-centrer" src="../public/icons/icon_logo-big.svg">
+            <a href="../fr/billetterie.html">
+                <p class="pfooter-titre text-center-footer sous-ligne">Billetterie & Contact</p>
+            </a>
+            <p class="pfooter-corps text-center-footer paddingtop45">Fondation Cartier, 261 Bd Raspail, 75014 <br>
+                Paris, France</p>
+
+            <div class="logo-rs">
+                <adress>
+                    <a class="pfooter-name" href="mailto:info.reservation@fondation.cartier.com"><img class="icon-mail"
+                            src="../public/icons/icon_mail.svg"></a>
+                </adress>
+                <a href="https://www.instagram.com/fondationcartier/"><img class="icon-insta"
+                        src="../public/icons/icon_instagram.svg"></a>
+                <a href="https://www.facebook.com/FondationCartier"><img class="icon-facebook"
+                        src="../public/icons/icon_facebook.svg"></a>
+            </div>
+            <div class="bas-footer text-center-footer">
+                <p class="pfooter-link bottom-element-footer">Design graphique & développement : maelontheflux</p>
+            </div>
+            <a href="http://mmimontbeliard.com/"><img class="mmi-logo" src="../public/img/all/mmi-logo-footer.webp"></a>
+        </div>
+    </div>
+</footer>
 
 </html>
